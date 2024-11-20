@@ -28,7 +28,7 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**{},\nWelcome To {}\n\n__By : @RahulReviewsYT__**".format(m.from_user.mention, m.chat.title))
+        await app.send_video(kk.id,img, "**{},\n\nWelcome To {}\n\n__𝗗𝗔𝗥𝗞 𝗩𝗶𝗗𝗘𝗢𝗦 😊\nhttps://telegram.dog/+6Jzzqo93rLFlNjc1\n\n𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗟€𝗮𝗸𝗲𝗱 𝗩𝗶𝗱𝗲𝗼 💗\nhttps://telegram.dog/+OdN-4atu7oEzY2U1\n\n🍑 𝗗𝗲𝘀𝗶 𝗟€𝗮𝗸€𝗱 𝗩𝗶𝗱𝗲𝗼 🍑😍\nhttps://telegram.dog/+cYFDMO9X7G85Y2Fl\n\n𝗜𝗻𝘀𝗧𝗮 𝗩𝗶𝗥𝗮𝗟 𝗩𝗶𝗗𝗲𝗼'𝗦 🙈😋\nhttps://telegram.dog/+qZo5q_FL2S00ZTBl\n\n𝗔𝗰𝘁𝗿𝗲𝘀𝘀 𝗩𝗶𝗿𝗮𝗹 𝗩𝗶𝗱𝗲𝗼𝘀 👄\nhttps://telegram.dog/+plwyzwKZYtc4Mzdl**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
