@@ -14,7 +14,7 @@ app = Client(
 )
 
 gif = [
-    'https://envs.sh/59e.png'
+    'https://envs.sh/59P.gif'
 ]
 
 
