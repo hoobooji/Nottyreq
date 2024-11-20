@@ -14,7 +14,7 @@ app = Client(
 )
 
 gif = [
-    'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWibQyQGLb-UUiKwCxkiBqDOD64Md9yTopWFLEkqq2ak01IEYuxdVN5dJAoPM4vGKmb4ySTkyOB2lWGRTQ5g6wVzgmaQBYO41whH7-EnQ3SgTkZZwjX3KcJAiylA-hmBb6B8W0v25oFoVNY04WVUgyJF08Oow8k_c0oLieXJwI5CHJEQrOyMNZIzuxlJ8/s16000/5904377286994545880_120.jpg'
+    'https://t.me/nottyreqtest/14'
 ]
 
 
