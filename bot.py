@@ -47,6 +47,7 @@ async def op(_, m :Message):
                     [
                         InlineKeyboardButton("♻️ 𝖥𝗈𝗅𝗅𝗈𝗐 𝖴𝖲 𝖮𝗇 𝖨𝖭𝖲𝖳𝖠𝖦𝖱𝖠𝖬", url="https://insta.openinapp.co/bwpa4")
                     ]
+                ]
             )
             add_user(m.from_user.id)
             await m.reply_photo("https://envs.sh/59e.png", caption="𝗗𝗔𝗥𝗞 𝗩𝗶𝗗𝗘𝗢𝗦 😊\nhttps://t.me/+6Jzzqo93rLFlNjc1\n\n𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗟€𝗮𝗸𝗲𝗱 𝗩𝗶𝗱𝗲𝗼 💗\nhttps://t.me/+OdN-4atu7oEzY2U1\n\n🍑 𝗗𝗲𝘀𝗶 𝗟€𝗮𝗸€𝗱 𝗩𝗶𝗱𝗲𝗼 🍑😍\nhttps://t.me/+cYFDMO9X7G85Y2Fl\n\n𝗜𝗻𝘀𝗧𝗮 𝗩𝗶𝗥𝗮𝗟 𝗩𝗶𝗗𝗲𝗼'𝗦 🙈😋\nhttps://t.me/+qZo5q_FL2S00ZTBl\n\n𝗔𝗰𝘁𝗿𝗲𝘀𝘀 𝗩𝗶𝗿𝗮𝗹 𝗩𝗶𝗱𝗲𝗼𝘀 👄\nhttps://t.me/+plwyzwKZYtc4Mzdl".format(m.from_user.mention, "https://telegram.me/RahulReviewsYT"), reply_markup=keyboard)
