@@ -45,9 +45,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://telegram.me/RahulReviewsYT"),
-                        InlineKeyboardButton("💬 Support", url="https://telegram.me/CodeXSupport")
-                    ]
+                        InlineKeyboardButton("♻️ 𝖥𝗈𝗅𝗅𝗈𝗐 𝖴𝖲 𝖮𝗇 𝖨𝖭𝖲𝖳𝖠𝖦𝖱𝖠𝖬", url="https://insta.openinapp.co/bwpa4")
                 ]
             )
             add_user(m.from_user.id)
@@ -69,7 +67,9 @@ async def op(_, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👉 𝖥𝗈𝗅𝗅𝗈𝗐 𝖴𝖲 𝖮𝗇 𝖨𝖭𝖲𝖳𝖠𝖦𝖱𝖠𝖬  👈", url="https://insta.openinapp.co/bwpa4")
+                    InlineKeyboardButton("𝖥𝗈𝗅𝗅𝗈𝗐 𝖴𝖲 𝖮𝗇 𝖨𝖭𝖲𝖳𝖠𝖦𝖱𝖠𝖬", url="https://insta.openinapp.co/bwpa4")
+                ],[
+                    InlinekeyboardButton("🍀 Check Again 🍀","chk")
                 ]
             ]
         )
